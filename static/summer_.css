@@ -1,0 +1,147 @@
+@font-face {
+    src : url('b612.ttf');
+    font-family : B612;
+}
+
+@font-face {
+    src : url('comic.ttf');
+    font-family : Comic Sans Ms;
+}
+
+@media only screen and (min-width: 605px) {
+    #fx{
+        float: right;
+    }
+}
+
+body *{
+    font-family : B612;
+    overflow: hidden;
+}
+
+
+body *{
+    font-family: B612;
+}
+
+#layout {
+    margin: 0;
+    min-width: 100%;
+    min-height: 100%;
+    min-height: 100vh;
+    padding: 0px;
+    /*background: url('b.jpg');*/
+    /*background: linear-gradient(#12c2e9, #c471ed, #f64f59);*/
+    display: inline-block;
+    overflow: scroll;
+    max-height: 100%;
+    max-height: 100vh;
+}
+
+#layout > * {
+    padding: 10px;
+}
+
+.in{
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.br{
+    color: brown;
+}
+
+.ye {
+    color: yellow;
+}
+
+.yg{
+    color: yellowgreen;
+}
+
+.bv {
+    color: blueviolet;
+}
+
+#rob{
+    white-space: break-spaces;
+}
+
+.spc{
+
+}
+
+.w{
+    /*color: white;*/
+}
+
+.cent{
+    text-align: center;
+    margin: 5px;
+}
+
+.sum{
+    font-size: 70px;
+}
+
+.fe {
+    font-size: 35px;
+    font-family: Comic Sans Ms;
+}
+
+#summer_fest{
+    padding: 15px 0px;
+}
+
+.imgs{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 15px;
+}
+
+.subs{
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 300px;
+    border: 2px solid teal;
+    border-radius: 10px 15px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.s{
+    font-size: 12px;
+    text-align: left;
+}
+
+@keyframes disp{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+#content {
+    opacity: 0;
+    display: none;
+    animation-name: disp;
+    animation-play-state: paused;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.o{
+    transform: rotate(-15deg);
+}
+
+.su{
+    display: inline-block;
+ }
+
+ #b{
+    padding: 10px;
+    border-radius: 10px 15px;
+  }
