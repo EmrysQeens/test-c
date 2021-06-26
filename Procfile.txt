@@ -1,1 +1,1 @@
-web: gunicorn app:renderer
+web: gunicorn renderer:listener
