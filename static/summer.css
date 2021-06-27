@@ -3,6 +3,11 @@
     font-family : B612;
 }
 
+@font-face {
+    src : url('comic.ttf');
+    font-family : Comic Sans Ms;
+}
+
 @media only screen and (max-width: 400px) {
   body {
   }
@@ -62,10 +67,7 @@ body *{
 
 body {
     height: 95vh;
-    /*background-image: url('register.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;*/
+    margin: 0px;
 }
 
 .c{
@@ -80,11 +82,14 @@ body {
     float: right;
 }
 
+
+
 #nav_bar {
     bottom: 0;
     position: fixed;
     width: 100%;
     background: white;
+    z-index: 1000;
 }
 
 #motto {
@@ -98,7 +103,13 @@ body {
 }
 
 .in{
-    display: inline;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 500px) {
+    #fx{
+        float: right;
+    }
 }
 
 .gr {
@@ -124,18 +135,115 @@ body {
     background: url('register.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.sub_content{
-    height: 400px;
-    width: 300px;
-    border: 5px solid black;
-    border-radius: 5px;
-    display: inline-block;
-    background: white;
+    padding-bottom: 150px;
 }
 
 #citytop{
     color: darkblue;
+}
+
+.cent{
+    text-align: center;
+    margin: 5px;
+}
+
+.sum{
+    font-size: 40px;
+}
+
+.fe {
+    font-size: 35px;
+    font-family: Comic Sans Ms;
+}
+
+#summer_fest{
+    padding: 15px 0px;
+}
+
+.imgs{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 15px;
+}
+
+#layout > * {
+    padding: 10px;
+}
+
+.subs{
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 300px;
+    border: 2px solid teal;
+    border-radius: 10px 15px;
+    padding: 10px;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+at: focus{
+
+}
+
+.s{
+    font-size: 12px;
+    text-align: left;
+}
+
+@keyframes disp{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+#content {
+    opacity: 0;
+    display: none;
+    animation-name: disp;
+    animation-play-state: paused;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.br{
+    color: brown;
+}
+
+.ye {
+    color: yellow;
+}
+
+.yg{
+    color: yellowgreen;
+}
+
+.bv {
+    color: blueviolet;
+}
+
+#rob{
+    white-space: break-spaces;
+}
+
+.o{
+    transform: rotate(-15deg);
+}
+
+.su{
+    display: inline-block;
+ }
+
+ #b{
+    padding: 10px;
+    border-radius: 10px 15px;
+  }
+
+  body *{
+    font-family : B612;
+    overflow: hidden;
 }
 

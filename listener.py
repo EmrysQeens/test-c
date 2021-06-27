@@ -5,7 +5,7 @@ renderer: Flask = Flask(__name__, static_folder="static", static_url_path="")
 
 @renderer.route('/')
 def render():
-    return render_template('summer_.html')
+    return render_template('summer.html')
 
 
 if __name__ == '__main__':
