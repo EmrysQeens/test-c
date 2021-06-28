@@ -1,11 +1,16 @@
-@font-face {
+/*@font-face {
     src : url('b612.ttf');
     font-family : B612;
-}
+}*/
 
 @font-face {
     src : url('comic.ttf');
     font-family : Comic Sans Ms;
+}
+
+@font-face {
+    src : url('fws.woff2');
+    font-family : FWS;
 }
 
 @media only screen and (max-width: 400px) {
@@ -62,7 +67,7 @@
 }
 
 body *{
-    font-family : B612;
+    font-family : FWS;
 }
 
 body {
@@ -75,7 +80,7 @@ body {
 }
 
 .w{
-    color: navy;
+    color: rgb(122, 122, 122);
 }
 
 .right {
@@ -132,7 +137,7 @@ body {
     min-height: 100%;
     min-height: 100vh;
     padding: 0;
-    background: url('register.jpg');
+    /*background: url('register.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 150px;
