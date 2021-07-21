@@ -49,3 +49,7 @@ li {
 h2 {
     margin : 5px;
 }
+
+.btn:active {
+    transform: scale3d(1.1, 1.1, 1.0);
+}
