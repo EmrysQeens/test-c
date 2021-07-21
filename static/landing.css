@@ -1,0 +1,51 @@
+@font-face{
+    src : url("rbr.ttf");
+    font-family: Roboto;
+}
+
+
+body * {
+    font-family: Roboto;
+}
+
+.hr-line {
+    border: 2px solid lightblue;
+    margin: 0px 5px;
+}
+
+.content {
+    min-width: 400px;
+    max-width: 400px;
+    border: 3px solid lightblue;
+    border-radius: 20px 30px;
+    padding: 8px;
+    margin: 5px 10px;
+    display: inline-flex;
+
+}
+
+
+#base-layout {
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    padding: 5px 0px;
+}
+
+.code{
+    font-size: 12px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.twelve {
+    font-size: 12px;
+    text-align: left;
+}
+
+h2 {
+    margin : 5px;
+}

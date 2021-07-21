@@ -1,7 +1,7 @@
 /*@font-face {
     src : url('b612.ttf');
     font-family : B612;
-}*/
+}
 
 @font-face {
     src : url('comic.ttf');
@@ -11,7 +11,7 @@
 @font-face {
     src : url('fws.woff2');
     font-family : FWS;
-}
+}*/
 
 @media only screen and (max-width: 400px) {
   body {
